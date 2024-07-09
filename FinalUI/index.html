@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>FOOD APP</h1>
+    </div>
+    
+    <div class="container">
+        <div class="product-list-container">
+            <h2>Available Products</h2>
+            <ul id="availableProducts">
+                <!-- List of products will be dynamically generated here -->
+            </ul>
+        </div>
+        <div class="table-container">
+            <h3>Cart</h3>
+            <button id="showCartBtn" class="show-cart-btn">Show Cart</button>
+            <table class="list" id="cartList" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic content will be added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p class="thank-you">Thank you</p>
+        <p class="made-by">Made by Tanishq</p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

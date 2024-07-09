@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML CRUD Operation using Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Enter Product Details</h2>
+            <form id="productForm" autocomplete="off">
+                <div>
+                    <label>Id</label>
+                    <input type="text" name="id" id="id" autocomplete="off">
+                </div>
+                <div>
+                    <label>Item Name</label>
+                    <input type="text" name="itemName" id="itemName" autocomplete="off">
+                </div>
+                <div>
+                    <label>Price</label>
+                    <input type="text" name="price" id="price" autocomplete="off">
+                </div>
+                <div>
+                    <label>Quantity</label>
+                    <input type="text" name="quantity" id="quantity" autocomplete="off">
+                </div>
+                <div class="form-action-buttons">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="table-container">
+            <h2>Product List</h2>
+            <table class="list" id="foodList">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
